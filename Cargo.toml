@@ -1,15 +1,15 @@
 [package]
 name = "bevy_mesh_decal"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
 bevy = "0.16"
 
 [dev-dependencies]
+#bevy_rapier3d = "0.27"
+#bevy_fps_controller = "0.3"
 
-bevy_rapier3d = { git = "https://github.com/mnmaita/bevy_rapier.git", branch = "mnmaita/bevy-0.16", features = [
-    "simd-stable",
-    "debug-render-3d",
-] }
+#Use git branch for now
+bevy_rapier3d = { git = "https://github.com/mnmaita/bevy_rapier.git", branch = "mnmaita/bevy-0.16"}
 bevy_fps_controller = { git = "https://github.com/qhdwight/bevy_fps_controller", branch = "development" }
