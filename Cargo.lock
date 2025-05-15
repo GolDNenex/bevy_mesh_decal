@@ -853,7 +853,7 @@ dependencies = [
 
 [[package]]
 name = "bevy_mesh_decal"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "bevy",
  "bevy_fps_controller",
@@ -3661,7 +3661,6 @@ dependencies = [
  "rustc-hash 2.1.1",
  "simba",
  "thiserror 2.0.12",
- "vec_map",
 ]
 
 [[package]]
